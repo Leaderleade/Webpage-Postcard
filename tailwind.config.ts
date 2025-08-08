@@ -52,6 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				western: {
+					brown: 'hsl(var(--western-brown))',
+					tan: 'hsl(var(--western-tan))',
+					orange: 'hsl(var(--western-orange))',
+					rust: 'hsl(var(--western-rust))',
+					desert: 'hsl(var(--western-desert))',
+					wood: 'hsl(var(--western-wood))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
