@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-
+import { Link } from "react-router-dom";
 const AboutSection = () => {
   return (
     <section className="py-20 bg-gradient-to-br from-western-desert to-background">
@@ -9,7 +9,7 @@ const AboutSection = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-lg font-medium text-western-rust mb-2">About</h2>
-              <h3 className="text-5xl font-bold text-foreground mb-6">Western Tales</h3>
+              <h3 className="text-5xl font-bold text-foreground mb-6">Hatchmee postcard</h3>
             </div>
             
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
@@ -17,7 +17,7 @@ const AboutSection = () => {
                 I believe we are deserving of warmth and character in our lives, and that they can be harnessed to tell our stories, create connection, and inspire joy in our homes, communities and around the world.
               </p>
               <p>
-                Learn more about my range of residential and commercial services bringing the spirit of the old west to modern spaces.
+                Learn more about our unique design of AI generated postcard,physical and digital versions.
               </p>
             </div>
             
@@ -26,7 +26,7 @@ const AboutSection = () => {
               size="lg"
               className="border-2 border-foreground text-foreground hover:bg-foreground hover:text-background"
             >
-              Learn More
+              <Link to="/pages/About">LEARN MORE</Link>
             </Button>
           </div>
           
@@ -34,16 +34,16 @@ const AboutSection = () => {
           <div className="space-y-8">
             <div className="aspect-[3/2] bg-gradient-to-br from-western-wood to-western-brown rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="/lovable-uploads/6aadcdf1-c1a8-402e-8d77-df5445aee24b.png"
-                alt="Western Design Services"
+                src="/placeholder.svg"
+                alt="Placeholder"
                 className="w-full h-full object-cover"
               />
             </div>
             
             <div className="aspect-[3/2] bg-gradient-to-br from-western-orange to-western-rust rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="/lovable-uploads/6aadcdf1-c1a8-402e-8d77-df5445aee24b.png"
-                alt="Western Interior Design"
+                src="/placeholder.svg"
+                alt="/placeholder.svg"
                 className="w-full h-full object-cover"
               />
             </div>

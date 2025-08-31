@@ -1,7 +1,8 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-
+import { Link } from "react-router-dom";
+// gallery page
 const Work = () => {
   const projects = [
     {
@@ -12,34 +13,34 @@ const Work = () => {
     },
     {
       id: 2,
-      title: "Saloon Revival",
-      description: "Complete interior design for a modern Western bar",
-      category: "Commercial"
+      title: "Placeholder",
+      description: "Placeholder",
+      category: "Placeholder"
     },
     {
       id: 3,
-      title: "Ranch House Makeover",
-      description: "Traditional ranch house with contemporary Western touches",
-      category: "Residential"
+      title: "Placeholder",
+      description: "Placeholder",
+      category: "Placeholder"
     },
     {
       id: 4,
-      title: "Frontier Office Space",
-      description: "Corporate office with Western heritage themes",
-      category: "Commercial"
+      title: "Placeholder",
+      description: "Placeholder",
+      category: "Placeholder"
     },
-    {
-      id: 5,
-      title: "Cabin in the Woods",
-      description: "Rustic cabin interior with modern amenities",
-      category: "Residential"
-    },
-    {
-      id: 6,
-      title: "Hotel Lobby Design",
-      description: "Boutique hotel lobby with Western elegance",
-      category: "Hospitality"
-    }
+    // {
+    //   id: 5,
+    //   title: "Cabin in the Woods",
+    //   description: "Rustic cabin interior with modern amenities",
+    //   category: "Residential"
+    // },
+    // {
+    //   id: 6,
+    //   title: "Hotel Lobby Design",
+    //   description: "Boutique hotel lobby with Western elegance",
+    //   category: "Hospitality"
+    // }
   ];
 
   return (
@@ -52,7 +53,7 @@ const Work = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-6xl font-bold text-foreground mb-6">Our Work</h1>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Explore our portfolio of Western-inspired interior design and wallpaper projects.
+              Placeholder
             </p>
           </div>
         </div>
@@ -66,7 +67,7 @@ const Work = () => {
               <div key={project.id} className="group cursor-pointer">
                 <div className="aspect-[4/3] bg-gradient-to-br from-western-wood to-western-brown rounded-lg overflow-hidden shadow-lg mb-6 group-hover:shadow-xl transition-shadow">
                   <img 
-                    src="/lovable-uploads/6aadcdf1-c1a8-402e-8d77-df5445aee24b.png"
+                    src="/placeholder.svg"
                     alt={project.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -92,16 +93,16 @@ const Work = () => {
       <section className="py-20 bg-gradient-to-br from-background to-western-desert">
         <div className="container mx-auto px-6 text-center">
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-4xl font-bold text-foreground mb-6">Ready to Start Your Project?</h2>
+            <h2 className="text-4xl font-bold text-foreground mb-6">Do you want customized postcard?</h2>
             <p className="text-xl text-muted-foreground mb-8">
-              Let's create something beautiful together that tells your unique Western story.
+              Let's create something beautiful together that tells your unique story.
             </p>
             <Button size="lg" className="mr-4">
-              Get Quote
+              <Link to="/Contact">Contact us</Link>
             </Button>
-            <Button variant="outline" size="lg">
-              View Services
-            </Button>
+            {/* <Button variant="outline" size="lg">
+              View past work
+            </Button> */}
           </div>
         </div>
       </section>

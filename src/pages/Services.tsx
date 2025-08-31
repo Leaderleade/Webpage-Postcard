@@ -4,7 +4,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Palette, Home, Ruler, Lightbulb, Clock, CheckCircle } from "lucide-react";
-
+import { Link } from "react-router-dom";
+// services page not needed for now
 const Services = () => {
   const services = [
     {

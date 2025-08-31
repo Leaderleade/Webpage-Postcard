@@ -3,7 +3,8 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/hooks/useCart";
 import { Trash2, Plus, Minus } from "lucide-react";
-
+import { Link } from "react-router-dom";
+// cart option not needed for now
 const Cart = () => {
   const { cart, removeFromCart, updateQuantity, getCartTotal, getCartCount } = useCart();
 

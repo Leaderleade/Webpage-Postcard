@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-
+import { Link } from "react-router-dom";
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen bg-gradient-to-br from-western-desert to-western-tan overflow-hidden">
@@ -11,8 +11,8 @@ const HeroSection = () => {
       {/* Hero Image */}
       <div className="absolute left-0 top-0 w-2/3 h-full">
         <img 
-          src="/lovable-uploads/6aadcdf1-c1a8-402e-8d77-df5445aee24b.png" 
-          alt="Western Bar Scene"
+          src="/placeholder.svg" 
+          alt="Placeholder"
           className="w-full h-full object-cover"
         />
       </div>
@@ -22,13 +22,13 @@ const HeroSection = () => {
         <div className="ml-auto w-1/2 pl-12">
           <div className="space-y-8">
             <h1 className="text-6xl lg:text-7xl font-bold text-foreground leading-tight">
-              STUNNING
+              A
               <br />
-              <span className="text-western-rust">CUSTOM WALLPAPER</span>
+              <span className="text-western-rust">B</span>
               <br />
-              FOR SPACES WORTH
+              C
               <br />
-              <span className="text-western-orange">SHARING</span>
+              <span className="text-western-orange">D</span>
             </h1>
             
             <Button 
@@ -36,7 +36,7 @@ const HeroSection = () => {
               size="lg"
               className="mt-8 border-2 border-foreground text-foreground hover:bg-foreground hover:text-background font-medium px-8 py-4"
             >
-              LEARN MORE
+              <Link to="/about">LEARN MORE</Link>
             </Button>
           </div>
         </div>

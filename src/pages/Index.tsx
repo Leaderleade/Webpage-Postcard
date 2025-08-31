@@ -4,7 +4,7 @@ import CollectionSection from "@/components/CollectionSection";
 import AboutSection from "@/components/AboutSection";
 import ServicesSection from "@/components/ServicesSection";
 import Footer from "@/components/Footer";
-
+import { Link } from "react-router-dom";
 const Index = () => {
   return (
     <div className="min-h-screen">

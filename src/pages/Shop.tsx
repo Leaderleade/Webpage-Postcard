@@ -2,53 +2,54 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/hooks/useCart";
-
+import { Link } from "react-router-dom";
+// kickstarter page
 const Shop = () => {
   const { addToCart } = useCart();
 
   const products = [
     {
       id: 1,
-      name: "Desert Sunrise Wallpaper",
+      name: "Placeholder",
       price: 89.99,
-      description: "Warm gradient wallpaper inspired by desert sunrises",
-      category: "Wallpaper"
+      description: "Placeholder",
+      category: "Placeholder"
     },
     {
       id: 2,
-      name: "Cactus Pattern Collection",
-      price: 76.99,
-      description: "Stylized cactus patterns perfect for accent walls",
-      category: "Wallpaper"
+      name: "Placeholder",
+      price: 89.99,
+      description: "Placeholder",
+      category: "Placeholder"
     },
     {
       id: 3,
-      name: "Rustic Wood Texture",
-      price: 94.99,
-      description: "Authentic weathered wood texture wallpaper",
-      category: "Wallpaper"
+      name: "Placeholder",
+      price: 89.99,
+      description: "Placeholder",
+      category: "Placeholder"
     },
     {
       id: 4,
-      name: "Western Landscape Series",
-      price: 129.99,
-      description: "Panoramic Western landscape murals",
-      category: "Mural"
+      name: "Placeholder",
+      price: 89.99,
+      description: "Placeholder",
+      category: "Placeholder"
     },
-    {
-      id: 5,
-      name: "Vintage Saddle Pattern",
-      price: 68.99,
-      description: "Classic leather and metal saddle motifs",
-      category: "Wallpaper"
-    },
-    {
-      id: 6,
-      name: "Prairie Wildflower",
-      price: 82.99,
-      description: "Delicate wildflower patterns on neutral backgrounds",
-      category: "Wallpaper"
-    }
+    // {
+    //   id: 5,
+    //   name: "Vintage Saddle Pattern",
+    //   price: 68.99,
+    //   description: "Classic leather and metal saddle motifs",
+    //   category: "Wallpaper"
+    // },
+    // {
+    //   id: 6,
+    //   name: "Prairie Wildflower",
+    //   price: 82.99,
+    //   description: "Delicate wildflower patterns on neutral backgrounds",
+    //   category: "Wallpaper"
+    // }
   ];
 
   return (
@@ -59,9 +60,9 @@ const Shop = () => {
       <section className="py-20 bg-gradient-to-br from-western-desert to-background">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-6xl font-bold text-foreground mb-6">Shop Western Tales</h1>
+            <h1 className="text-6xl font-bold text-foreground mb-6">Shop giftcard</h1>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Discover our collection of premium Western-inspired wallpapers and murals.
+              Placeholder.
             </p>
           </div>
         </div>
@@ -75,7 +76,7 @@ const Shop = () => {
               <div key={product.id} className="group">
                 <div className="aspect-[4/3] bg-gradient-to-br from-western-wood to-western-brown rounded-lg overflow-hidden shadow-lg mb-6 group-hover:shadow-xl transition-shadow">
                   <img 
-                    src="/lovable-uploads/6aadcdf1-c1a8-402e-8d77-df5445aee24b.png"
+                    src="/placeholder.svg"
                     alt={product.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -95,12 +96,13 @@ const Shop = () => {
                       ${product.price}
                     </p>
                   </div>
-                  <Button 
+                  {/* cart not needed for now */}
+                  {/* <Button 
                     className="w-full"
                     onClick={() => addToCart(product)}
                   >
                     Add to Cart
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             ))}
@@ -116,9 +118,9 @@ const Shop = () => {
               <div className="w-16 h-16 bg-western-orange rounded-full mx-auto flex items-center justify-center">
                 <div className="w-8 h-8 bg-background rounded-full"></div>
               </div>
-              <h3 className="text-xl font-semibold text-foreground">Premium Quality</h3>
+              <h3 className="text-xl font-semibold text-foreground">Placeholder</h3>
               <p className="text-muted-foreground">
-                High-quality materials designed to last for years.
+                Placeholder
               </p>
             </div>
             
@@ -126,9 +128,9 @@ const Shop = () => {
               <div className="w-16 h-16 bg-western-rust rounded-full mx-auto flex items-center justify-center">
                 <div className="w-8 h-8 bg-background rounded-full"></div>
               </div>
-              <h3 className="text-xl font-semibold text-foreground">Easy Installation</h3>
+              <h3 className="text-xl font-semibold text-foreground">Placeholder</h3>
               <p className="text-muted-foreground">
-                Simple peel-and-stick application for most products.
+                Placeholder
               </p>
             </div>
             
@@ -136,9 +138,9 @@ const Shop = () => {
               <div className="w-16 h-16 bg-western-wood rounded-full mx-auto flex items-center justify-center">
                 <div className="w-8 h-8 bg-background rounded-full"></div>
               </div>
-              <h3 className="text-xl font-semibold text-foreground">Custom Sizes</h3>
+              <h3 className="text-xl font-semibold text-foreground">Placeholder</h3>
               <p className="text-muted-foreground">
-                Available in custom dimensions for any space.
+                Placeholder
               </p>
             </div>
           </div>
