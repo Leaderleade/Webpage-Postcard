@@ -1,44 +1,77 @@
+import { Link } from "react-router-dom";
+import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from "lucide-react";
+
 const Footer = () => {
   return (
-    <footer className="bg-western-brown text-western-tan py-16">
-      <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+    <footer className="bg-western-brown text-western-tan py-12 sm:py-16">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand */}
-          <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">WESTERN TALES</h3>
-            <p className="text-western-desert mb-6 max-w-md">
+          <div className="sm:col-span-2 lg:col-span-2">
+            <h3 className="text-xl sm:text-2xl font-bold mb-4">WESTERN TALES</h3>
+            <p className="text-western-desert mb-6 max-w-md text-sm sm:text-base">
               Bringing the warmth and character of the old west to modern spaces through custom wallpaper and interior design.
             </p>
             <div className="flex space-x-4">
-              <div className="w-8 h-8 bg-western-tan rounded hover:bg-western-orange transition-colors cursor-pointer"></div>
-              <div className="w-8 h-8 bg-western-tan rounded hover:bg-western-orange transition-colors cursor-pointer"></div>
-              <div className="w-8 h-8 bg-western-tan rounded hover:bg-western-orange transition-colors cursor-pointer"></div>
+              <a href="#" className="w-8 h-8 bg-western-tan rounded-full flex items-center justify-center hover:bg-western-orange transition-colors cursor-pointer">
+                <Facebook className="w-4 h-4 text-western-brown" />
+              </a>
+              <a href="#" className="w-8 h-8 bg-western-tan rounded-full flex items-center justify-center hover:bg-western-orange transition-colors cursor-pointer">
+                <Instagram className="w-4 h-4 text-western-brown" />
+              </a>
+              <a href="#" className="w-8 h-8 bg-western-tan rounded-full flex items-center justify-center hover:bg-western-orange transition-colors cursor-pointer">
+                <Twitter className="w-4 h-4 text-western-brown" />
+              </a>
             </div>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-            <ul className="space-y-2 text-western-desert">
-              <li><a href="#" className="hover:text-western-orange transition-colors">Work</a></li>
-              <li><a href="#" className="hover:text-western-orange transition-colors">Shop</a></li>
-              <li><a href="#" className="hover:text-western-orange transition-colors">Services</a></li>
-              <li><a href="#" className="hover:text-western-orange transition-colors">About</a></li>
+            <h4 className="text-base sm:text-lg font-semibold mb-4">Quick Links</h4>
+            <ul className="space-y-2 text-western-desert text-sm sm:text-base">
+              <li>
+                <Link to="/work" className="hover:text-western-orange transition-colors">Work</Link>
+              </li>
+              <li>
+                <Link to="/shop" className="hover:text-western-orange transition-colors">Shop</Link>
+              </li>
+              <li>
+                <Link to="/services" className="hover:text-western-orange transition-colors">Services</Link>
+              </li>
+              <li>
+                <Link to="/about" className="hover:text-western-orange transition-colors">About</Link>
+              </li>
+              <li>
+                <Link to="/contact" className="hover:text-western-orange transition-colors">Contact</Link>
+              </li>
             </ul>
           </div>
 
           {/* Contact */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Contact</h4>
-            <ul className="space-y-2 text-western-desert">
-              <li>hello@westerntales.com</li>
-              <li>+1 (555) 123-4567</li>
-              <li>Austin, Texas</li>
+            <h4 className="text-base sm:text-lg font-semibold mb-4">Contact</h4>
+            <ul className="space-y-3 text-western-desert text-sm sm:text-base">
+              <li className="flex items-center">
+                <Mail className="w-4 h-4 mr-2" />
+                <a href="mailto:hello@westerntales.com" className="hover:text-western-orange transition-colors">
+                  hello@westerntales.com
+                </a>
+              </li>
+              <li className="flex items-center">
+                <Phone className="w-4 h-4 mr-2" />
+                <a href="tel:+15551234567" className="hover:text-western-orange transition-colors">
+                  +1 (555) 123-4567
+                </a>
+              </li>
+              <li className="flex items-center">
+                <MapPin className="w-4 h-4 mr-2" />
+                <span>Austin, Texas</span>
+              </li>
             </ul>
           </div>
         </div>
 
-        <div className="border-t border-western-desert/30 mt-12 pt-8 text-center text-western-desert">
+        <div className="border-t border-western-desert/30 mt-8 sm:mt-12 pt-6 sm:pt-8 text-center text-western-desert text-sm sm:text-base">
           <p>&copy; 2024 Western Tales. All rights reserved.</p>
         </div>
       </div>
