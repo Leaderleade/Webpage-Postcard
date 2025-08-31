@@ -27,21 +27,21 @@ const Header = () => {
           {/* Desktop Left Navigation */}
           <div className="hidden lg:flex items-center space-x-6">
             <Button variant="ghost" className="text-foreground hover:text-accent font-medium text-sm" asChild>
-              <Link to="/work">WORK</Link>
+              <Link to="/work">Gallery</Link>
             </Button>
             <Button variant="ghost" className="text-foreground hover:text-accent font-medium text-sm" asChild>
-              <Link to="/shop">SHOP</Link>
+              <Link to="/shop">Kickstarter Page</Link>
             </Button>
-            <Button variant="ghost" className="text-foreground hover:text-accent font-medium text-sm" asChild>
+            {/* <Button variant="ghost" className="text-foreground hover:text-accent font-medium text-sm" asChild>
               <Link to="/services">SERVICES</Link>
-            </Button>
+            </Button> */}
           </div>
           
           {/* Logo - Center on desktop, left on mobile */}
           <div className="lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2">
             <Link to="/">
               <h1 className="text-xl sm:text-2xl font-bold tracking-wider text-foreground hover:text-accent transition-colors">
-                WESTERN TALES
+                Postcard shop
               </h1>
             </Link>
           </div>
@@ -54,7 +54,7 @@ const Header = () => {
             <Button variant="ghost" className="text-foreground hover:text-accent font-medium text-sm" asChild>
               <Link to="/contact">CONTACT</Link>
             </Button>
-            <Button variant="ghost" className="text-foreground hover:text-accent font-medium text-sm relative" asChild>
+            {/* <Button variant="ghost" className="text-foreground hover:text-accent font-medium text-sm relative" asChild>
               <Link to="/cart">
                 <ShoppingCart className="h-5 w-5" />
                 {getCartCount() > 0 && (
@@ -63,11 +63,11 @@ const Header = () => {
                   </span>
                 )}
               </Link>
-            </Button>
+            </Button> */}
           </div>
 
           {/* Mobile cart icon */}
-          <div className="lg:hidden">
+          {/* <div className="lg:hidden">
             <Button variant="ghost" size="icon" className="text-foreground relative" asChild>
               <Link to="/cart">
                 <ShoppingCart className="h-6 w-6" />
@@ -78,7 +78,7 @@ const Header = () => {
                 )}
               </Link>
             </Button>
-          </div>
+          </div> */}
         </nav>
 
         {/* Mobile Menu */}
@@ -86,14 +86,14 @@ const Header = () => {
           <div className="lg:hidden mt-4 py-4 border-t border-border">
             <div className="flex flex-col space-y-2">
               <Button variant="ghost" className="text-foreground hover:text-accent font-medium justify-start" asChild>
-                <Link to="/work" onClick={() => setIsMenuOpen(false)}>WORK</Link>
+                <Link to="/work" onClick={() => setIsMenuOpen(false)}>Gallery</Link>
               </Button>
               <Button variant="ghost" className="text-foreground hover:text-accent font-medium justify-start" asChild>
-                <Link to="/shop" onClick={() => setIsMenuOpen(false)}>SHOP</Link>
+                <Link to="/shop" onClick={() => setIsMenuOpen(false)}>Kickstarter Page</Link>
               </Button>
-              <Button variant="ghost" className="text-foreground hover:text-accent font-medium justify-start" asChild>
+              {/* <Button variant="ghost" className="text-foreground hover:text-accent font-medium justify-start" asChild>
                 <Link to="/services" onClick={() => setIsMenuOpen(false)}>SERVICES</Link>
-              </Button>
+              </Button> */}
               <Button variant="ghost" className="text-foreground hover:text-accent font-medium justify-start" asChild>
                 <Link to="/about" onClick={() => setIsMenuOpen(false)}>ABOUT</Link>
               </Button>
