@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b webtest"
+    "deploy": "gh-pages -d dist -b webhost"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
