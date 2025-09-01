@@ -19,8 +19,8 @@ const Cart = () => {
               <p className="text-xl text-muted-foreground mb-8">
                 Your cart is currently empty.
               </p>
-              <Button size="lg" onClick={() => window.location.href = '/shop'}>
-                Continue Shopping
+              <Button size="lg" onClick={() => window.location.href = '/kickstarter'}>
+                Continue to Kickstarter
               </Button>
             </div>
           </div>
@@ -133,8 +133,8 @@ const Cart = () => {
                 <Button size="lg" className="w-full">
                   Proceed to Checkout
                 </Button>
-                <Button variant="outline" size="lg" className="w-full" onClick={() => window.location.href = '/shop'}>
-                  Continue Shopping
+                <Button variant="outline" size="lg" className="w-full" onClick={() => window.location.href = '/kickstarter'}>
+                  Continue to Kickstarter
                 </Button>
               </div>
             </div>

@@ -30,7 +30,7 @@ const Header = () => {
               <Link to="/work">WORK</Link>
             </Button>
             <Button variant="ghost" className="text-foreground hover:text-accent font-medium text-sm" asChild>
-              <Link to="/shop">SHOP</Link>
+              <Link to="/kickstarter">KICKSTARTER</Link>
             </Button>
             <Button variant="ghost" className="text-foreground hover:text-accent font-medium text-sm" asChild>
               <Link to="/services">SERVICES</Link>
@@ -89,7 +89,7 @@ const Header = () => {
                 <Link to="/work" onClick={() => setIsMenuOpen(false)}>WORK</Link>
               </Button>
               <Button variant="ghost" className="text-foreground hover:text-accent font-medium justify-start" asChild>
-                <Link to="/shop" onClick={() => setIsMenuOpen(false)}>SHOP</Link>
+                <Link to="/kickstarter" onClick={() => setIsMenuOpen(false)}>KICKSTARTER</Link>
               </Button>
               <Button variant="ghost" className="text-foreground hover:text-accent font-medium justify-start" asChild>
                 <Link to="/services" onClick={() => setIsMenuOpen(false)}>SERVICES</Link>

@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
-const CollectionSection = () => {
+const Gallery = () => {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-6">
-        {/* Collection Header */}
+        {/* Gallery Header */}
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold text-foreground mb-4">
             WESTERN TALES
@@ -18,7 +18,7 @@ const CollectionSection = () => {
             className="mt-6 border-2 border-foreground text-foreground hover:bg-foreground hover:text-background"
             asChild
           >
-            <Link to="/shop">SHOP THE COLLECTION</Link>
+            <Link to="/kickstarter">SUPPORT ON KICKSTARTER</Link>
           </Button>
         </div>
 
@@ -65,4 +65,4 @@ const CollectionSection = () => {
   );
 };
 
-export default CollectionSection;
+export default Gallery;
