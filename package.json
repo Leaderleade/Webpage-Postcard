@@ -1,6 +1,5 @@
 {
   "name": "vite_react_shadcn_ts",
-  "homepage": "https://leaderleade.github.io/Webpage-Postcard/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +8,13 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
+<<<<<<< HEAD
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist -b 2nd"
+=======
+    "preview": "vite preview"
+>>>>>>> origin
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -48,8 +51,11 @@
     "cmdk": "^1.1.1",
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.6.0",
+<<<<<<< HEAD
     "gh-pages": "^6.3.0",
     "i": "^0.3.7",
+=======
+>>>>>>> origin
     "input-otp": "^1.4.2",
     "lucide-react": "^0.462.0",
     "next-themes": "^0.3.0",
