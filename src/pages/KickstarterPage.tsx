@@ -9,63 +9,63 @@ const KickstarterPage = () => {
   const products = [
     {
       id: 1,
-      name: "Rustic Saloon Wallpaper",
+      name: "placeholder",
       price: 149,
-      description: "Transform your space with authentic western charm. Premium quality wallpaper featuring vintage saloon aesthetics.",
-      category: "Wallpaper",
-      image: "/lovable-uploads/6aadcdf1-c1a8-402e-8d77-df5445aee24b.png"
+      description: "placeholder",
+      category: "placeholder",
+      image: "placeholder.svg"
     },
     {
       id: 2,
-      name: "Desert Canyon Mural",
-      price: 299,
-      description: "Bring the vast beauty of the American Southwest indoors with this stunning desert landscape mural.",
-      category: "Mural",
-      image: "/lovable-uploads/6aadcdf1-c1a8-402e-8d77-df5445aee24b.png"
+      name: "placeholder",
+      price: 149,
+      description: "placeholder",
+      category: "placeholder",
+      image: "placeholder.svg"
     },
     {
       id: 3,
-      name: "Gold Rush Pattern",
-      price: 189,
-      description: "Elegant wallpaper inspired by the California Gold Rush era, perfect for accent walls.",
-      category: "Wallpaper",
-      image: "/lovable-uploads/6aadcdf1-c1a8-402e-8d77-df5445aee24b.png"
+      name: "placeholder",
+      price: 149,
+      description: "placeholder",
+      category: "placeholder",
+      image: "placeholder.svg"
     },
     {
       id: 4,
-      name: "Cowboy Cantina Collection",
-      price: 249,
-      description: "Complete your western theme with this cantina-inspired wallpaper collection.",
-      category: "Collection",
-      image: "/lovable-uploads/6aadcdf1-c1a8-402e-8d77-df5445aee24b.png"
+      name: "placeholder",
+      price: 149,
+      description: "placeholder",
+      category: "placeholder",
+      image: "placeholder.svg"
     },
     {
       id: 5,
-      name: "Wild West Vintage",
-      price: 199,
-      description: "Authentic vintage western patterns that tell the story of the American frontier.",
-      category: "Vintage",
-      image: "/lovable-uploads/6aadcdf1-c1a8-402e-8d77-df5445aee24b.png"
+      name: "placeholder",
+      price: 149,
+      description: "placeholder",
+      category: "placeholder",
+      image: "placeholder.svg"
     },
     {
       id: 6,
-      name: "Ranch House Classic",
-      price: 169,
-      description: "Timeless ranch-style designs that bring warmth and character to any room.",
-      category: "Classic",
-      image: "/lovable-uploads/6aadcdf1-c1a8-402e-8d77-df5445aee24b.png"
+      name: "placeholder",
+      price: 149,
+      description: "placeholder",
+      category: "placeholder",
+      image: "placeholder.svg"
     }
   ];
 
-  const handleAddToCart = (product: any) => {
-    addToCart({
-      id: product.id,
-      name: product.name,
-      price: product.price,
-      description: product.description,
-      category: product.category
-    });
-  };
+  // const handleAddToCart = (product: any) => {
+  //   addToCart({
+  //     id: product.id,
+  //     name: product.name,
+  //     price: product.price,
+  //     description: product.description,
+  //     category: product.category
+  //   });
+  // };
 
   return (
     <div className="min-h-screen">
@@ -81,7 +81,7 @@ const KickstarterPage = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-6xl font-bold text-foreground mb-6">Kickstarter Campaign</h1>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Support our Western Tales wallpaper collection through our Kickstarter campaign.
+              Support our postcard collection through our Kickstarter campaign.
             </p>
           </div>
         </div>
@@ -106,7 +106,7 @@ const KickstarterPage = () => {
                   <div className="flex items-center justify-between">
                     <span className="text-2xl font-bold text-western-rust">${product.price}</span>
                     <Button 
-                      onClick={() => handleAddToCart(product)}
+                      // onClick={() => handleAddToCart(product)}
                       className="bg-western-rust hover:bg-western-rust/90 text-white"
                     >
                       Back This Product
@@ -123,11 +123,9 @@ const KickstarterPage = () => {
       <section className="py-20 bg-gradient-to-br from-western-tan to-background">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl font-bold text-foreground mb-6">Support Western Tales</h2>
+            <h2 className="text-4xl font-bold text-foreground mb-6">placeholder</h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Help us bring authentic western charm to homes across America. By backing our Kickstarter campaign, 
-              you're not just getting premium wallpaper – you're supporting artisan craftsmanship and the preservation 
-              of western heritage in modern design.
+              placeholder
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
               <div className="text-center">

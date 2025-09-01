@@ -16,7 +16,7 @@ const Contact = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-6xl font-bold text-foreground mb-6">Get In Touch</h1>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Let's discuss how we can bring Western charm to your space.
+              placeholder
             </p>
           </div>
         </div>
@@ -63,7 +63,7 @@ const Contact = () => {
                   <Label htmlFor="message">Message</Label>
                   <Textarea 
                     id="message" 
-                    placeholder="Tell us about your project..."
+                    placeholder="Tell us about..."
                     className="min-h-[120px]"
                   />
                 </div>
@@ -82,11 +82,11 @@ const Contact = () => {
               
               <div className="space-y-8">
                 <div className="space-y-4">
-                  <h3 className="text-xl font-semibold text-foreground">Office</h3>
+                  <h3 className="text-xl font-semibold text-foreground">placeholder</h3>
                   <p className="text-muted-foreground">
-                    123 Western Trail<br />
-                    Austin, Texas 78701<br />
-                    United States
+                    placeholder<br />
+                    placeholder<br />
+                    placeholder
                   </p>
                 </div>
                 
@@ -94,13 +94,13 @@ const Contact = () => {
                   <h3 className="text-xl font-semibold text-foreground">Get in touch</h3>
                   <div className="space-y-2">
                     <p className="text-muted-foreground">
-                      <strong>Email:</strong> hello@westerntales.com
+                      <strong>Email:</strong> hello@.com
                     </p>
                     <p className="text-muted-foreground">
-                      <strong>Phone:</strong> +1 (555) 123-4567
+                      <strong>Phone:</strong> +1 (555) 555-5555
                     </p>
                     <p className="text-muted-foreground">
-                      <strong>Hours:</strong> Mon-Fri 9AM-6PM CST
+                      <strong>Hours:</strong> Mon-Fri 9AM-6PM 
                     </p>
                   </div>
                 </div>
@@ -117,7 +117,7 @@ const Contact = () => {
               
               <div className="aspect-[4/3] bg-gradient-to-br from-western-wood to-western-brown rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="/lovable-uploads/6aadcdf1-c1a8-402e-8d77-df5445aee24b.png"
+                  src="placeholder.svg"
                   alt="Western Tales Office"
                   className="w-full h-full object-cover"
                 />

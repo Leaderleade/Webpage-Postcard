@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-2">
-            <h3 className="text-xl sm:text-2xl font-bold mb-4">WESTERN TALES</h3>
+            <h3 className="text-xl sm:text-2xl font-bold mb-4">Postcard</h3>
             <p className="text-western-desert mb-6 max-w-md text-sm sm:text-base">
-              Bringing the warmth and character of the old west to modern spaces through custom wallpaper and interior design.
+              intro
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-8 h-8 bg-western-tan rounded-full flex items-center justify-center hover:bg-western-orange transition-colors cursor-pointer">
@@ -36,7 +36,7 @@ const Footer = () => {
                 <Link to="/kickstarter" className="hover:text-western-orange transition-colors">Kickstarter</Link>
               </li>
               <li>
-                <Link to="/services" className="hover:text-western-orange transition-colors">Services</Link>
+                {/* <Link to="/services" className="hover:text-western-orange transition-colors">Services</Link> */}
               </li>
               <li>
                 <Link to="/about" className="hover:text-western-orange transition-colors">About</Link>
@@ -54,25 +54,25 @@ const Footer = () => {
               <li className="flex items-center">
                 <Mail className="w-4 h-4 mr-2" />
                 <a href="mailto:hello@westerntales.com" className="hover:text-western-orange transition-colors">
-                  hello@westerntales.com
+                  hello@.com
                 </a>
               </li>
               <li className="flex items-center">
                 <Phone className="w-4 h-4 mr-2" />
-                <a href="tel:+15551234567" className="hover:text-western-orange transition-colors">
-                  +1 (555) 123-4567
+                <a href="tel:+1 (555) 555-5555" className="hover:text-western-orange transition-colors">
+                  +1 (555) 555-5555
                 </a>
               </li>
               <li className="flex items-center">
                 <MapPin className="w-4 h-4 mr-2" />
-                <span>Austin, Texas</span>
+                <span>UW,ca</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-western-desert/30 mt-8 sm:mt-12 pt-6 sm:pt-8 text-center text-western-desert text-sm sm:text-base">
-          <p>&copy; 2024 Western Tales. All rights reserved.</p>
+          <p>&copy; 2025 . All rights reserved.</p>
         </div>
       </div>
     </footer>

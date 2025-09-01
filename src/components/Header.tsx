@@ -32,16 +32,16 @@ const Header = () => {
             <Button variant="ghost" className="text-foreground hover:text-accent font-medium text-sm" asChild>
               <Link to="/kickstarter">KICKSTARTER</Link>
             </Button>
-            <Button variant="ghost" className="text-foreground hover:text-accent font-medium text-sm" asChild>
+            {/* <Button variant="ghost" className="text-foreground hover:text-accent font-medium text-sm" asChild>
               <Link to="/services">SERVICES</Link>
-            </Button>
+            </Button> */}
           </div>
           
           {/* Logo - Center on desktop, left on mobile */}
           <div className="lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2">
             <Link to="/">
               <h1 className="text-xl sm:text-2xl font-bold tracking-wider text-foreground hover:text-accent transition-colors">
-                WESTERN TALES
+                Placeholder
               </h1>
             </Link>
           </div>
@@ -54,7 +54,7 @@ const Header = () => {
             <Button variant="ghost" className="text-foreground hover:text-accent font-medium text-sm" asChild>
               <Link to="/contact">CONTACT</Link>
             </Button>
-            <Button variant="ghost" className="text-foreground hover:text-accent font-medium text-sm relative" asChild>
+            {/* <Button variant="ghost" className="text-foreground hover:text-accent font-medium text-sm relative" asChild>
               <Link to="/cart">
                 <ShoppingCart className="h-5 w-5" />
                 {getCartCount() > 0 && (
@@ -63,7 +63,7 @@ const Header = () => {
                   </span>
                 )}
               </Link>
-            </Button>
+            </Button> */}
           </div>
 
           {/* Mobile cart icon */}
@@ -91,9 +91,9 @@ const Header = () => {
               <Button variant="ghost" className="text-foreground hover:text-accent font-medium justify-start" asChild>
                 <Link to="/kickstarter" onClick={() => setIsMenuOpen(false)}>KICKSTARTER</Link>
               </Button>
-              <Button variant="ghost" className="text-foreground hover:text-accent font-medium justify-start" asChild>
-                <Link to="/services" onClick={() => setIsMenuOpen(false)}>SERVICES</Link>
-              </Button>
+              {/* <Button variant="ghost" className="text-foreground hover:text-accent font-medium justify-start" asChild>
+                <Link to="/services" onClick={() => setIsMenuOpen(false)}>SERVICES</Link> */}
+              {/* </Button> */}
               <Button variant="ghost" className="text-foreground hover:text-accent font-medium justify-start" asChild>
                 <Link to="/about" onClick={() => setIsMenuOpen(false)}>ABOUT</Link>
               </Button>

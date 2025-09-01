@@ -12,8 +12,8 @@ const HeroSection = () => {
       {/* Hero Image */}
       <div className="absolute left-0 top-0 w-2/3 h-full">
         <img 
-          src="/lovable-uploads/6aadcdf1-c1a8-402e-8d77-df5445aee24b.png" 
-          alt="Western Bar Scene"
+          src="placeholder.svg" 
+          alt="Placeholder"
           className="w-full h-full object-cover"
         />
       </div>
@@ -25,11 +25,11 @@ const HeroSection = () => {
             <h1 className="text-6xl lg:text-7xl font-bold text-foreground leading-tight">
               STUNNING
               <br />
-              <span className="text-western-rust">CUSTOM WALLPAPER</span>
+              <span className="text-western-rust">Placeholder</span>
               <br />
-              FOR SPACES WORTH
+              Placeholder
               <br />
-              <span className="text-western-orange">SHARING</span>
+              <span className="text-western-orange">Placeholder</span>
             </h1>
             
             <Button 
