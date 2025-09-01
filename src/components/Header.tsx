@@ -67,7 +67,7 @@ const Header = () => {
           </div>
 
           {/* Mobile cart icon */}
-          <div className="lg:hidden">
+          {/* <div className="lg:hidden">
             <Button variant="ghost" size="icon" className="text-foreground relative" asChild>
               <Link to="/cart">
                 <ShoppingCart className="h-6 w-6" />
@@ -78,7 +78,7 @@ const Header = () => {
                 )}
               </Link>
             </Button>
-          </div>
+          </div> */}
         </nav>
 
         {/* Mobile Menu */}
