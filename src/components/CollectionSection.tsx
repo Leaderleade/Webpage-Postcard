@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const CollectionSection = () => {
   return (
@@ -15,8 +16,9 @@ const CollectionSection = () => {
             variant="outline"
             size="lg" 
             className="mt-6 border-2 border-foreground text-foreground hover:bg-foreground hover:text-background"
+            asChild
           >
-            SHOP THE COLLECTION
+            <Link to="/shop">SHOP THE COLLECTION</Link>
           </Button>
         </div>
 
@@ -34,8 +36,8 @@ const CollectionSection = () => {
             <div className="text-center mt-6">
               <h3 className="text-3xl font-bold text-foreground mb-2">THE RUSTIC</h3>
               <h4 className="text-xl text-western-rust font-medium mb-4">SALOON</h4>
-              <Button variant="ghost" className="text-foreground hover:text-western-orange">
-                VIEW THE PROJECT
+              <Button variant="ghost" className="text-foreground hover:text-western-orange" asChild>
+                <Link to="/work">VIEW THE PROJECT</Link>
               </Button>
             </div>
           </div>
@@ -52,8 +54,8 @@ const CollectionSection = () => {
             <div className="text-center mt-6">
               <h3 className="text-3xl font-bold text-foreground mb-2">DESERT</h3>
               <h4 className="text-xl text-western-rust font-medium mb-4">CANTINA</h4>
-              <Button variant="ghost" className="text-foreground hover:text-western-orange">
-                VIEW THE PROJECT
+              <Button variant="ghost" className="text-foreground hover:text-western-orange" asChild>
+                <Link to="/work">VIEW THE PROJECT</Link>
               </Button>
             </div>
           </div>

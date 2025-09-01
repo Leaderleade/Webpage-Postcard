@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -35,8 +36,9 @@ const HeroSection = () => {
               variant="outline" 
               size="lg"
               className="mt-8 border-2 border-foreground text-foreground hover:bg-foreground hover:text-background font-medium px-8 py-4"
+              asChild
             >
-              LEARN MORE
+              <Link to="/about">LEARN MORE</Link>
             </Button>
           </div>
         </div>
