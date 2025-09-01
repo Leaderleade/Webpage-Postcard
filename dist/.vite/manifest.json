@@ -1,0 +1,18 @@
+{
+  "_vendor-1kqR4etN.js": {
+    "file": "assets/vendor-1kqR4etN.js",
+    "name": "vendor"
+  },
+  "index.html": {
+    "file": "assets/index-Bjzafs-b.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_vendor-1kqR4etN.js"
+    ],
+    "css": [
+      "assets/index-DNj98-Ku.css"
+    ]
+  }
+}
