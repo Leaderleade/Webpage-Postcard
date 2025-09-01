@@ -10,15 +10,15 @@ const AboutSection = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-lg font-medium text-western-rust mb-2">About</h2>
-              <h3 className="text-5xl font-bold text-foreground mb-6">Western Tales</h3>
+              <h3 className="text-5xl font-bold text-foreground mb-6">Post card</h3>
             </div>
             
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                I believe we are deserving of warmth and character in our lives, and that they can be harnessed to tell our stories, create connection, and inspire joy in our homes, communities and around the world.
+                intro
               </p>
               <p>
-                Learn more about my range of residential and commercial services bringing the spirit of the old west to modern spaces.
+                intro
               </p>
             </div>
             
@@ -36,16 +36,16 @@ const AboutSection = () => {
           <div className="space-y-8">
             <div className="aspect-[3/2] bg-gradient-to-br from-western-wood to-western-brown rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="/lovable-uploads/6aadcdf1-c1a8-402e-8d77-df5445aee24b.png"
-                alt="Western Design Services"
+                src="public\placeholder.svg"
+                alt="Placeholder"
                 className="w-full h-full object-cover"
               />
             </div>
             
             <div className="aspect-[3/2] bg-gradient-to-br from-western-orange to-western-rust rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="/lovable-uploads/6aadcdf1-c1a8-402e-8d77-df5445aee24b.png"
-                alt="Western Interior Design"
+                src="public\placeholder.svg"
+                alt="Placeholder"
                 className="w-full h-full object-cover"
               />
             </div>
