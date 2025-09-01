@@ -36,7 +36,7 @@ const AboutSection = () => {
           <div className="space-y-8">
             <div className="aspect-[3/2] bg-gradient-to-br from-western-wood to-western-brown rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="public\placeholder.svg"
+                src="placeholder.svg"
                 alt="Placeholder"
                 className="w-full h-full object-cover"
               />
@@ -44,7 +44,7 @@ const AboutSection = () => {
             
             <div className="aspect-[3/2] bg-gradient-to-br from-western-orange to-western-rust rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="public\placeholder.svg"
+                src="placeholder.svg"
                 alt="Placeholder"
                 className="w-full h-full object-cover"
               />
