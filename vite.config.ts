@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
-import path from "path";
+import path, { basename } from "path";
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
@@ -12,8 +12,10 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
+    basename(__dirname) === "Webpage-Postcard" &&
     mode === 'development' &&
     componentTagger(),
+    
   ].filter(Boolean),
   resolve: {
     alias: {
